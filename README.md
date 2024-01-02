@@ -9,7 +9,10 @@ https://statistics.ukdataservice.ac.uk/dataset/2011-census-geography-boundaries-
 
 UK Data Service. (2022b). ‘2011 Census Geography Boundaries Middle Layour Super Output Areas and Intermediate Zones’. Available From: https://statistics.ukdataservice.ac.uk/dataset/2011-census-geography-boundaries-middle-layer-super-output-areas-and-intermediate-zones [Accessed 10 December 2023].
 
-2. Install packages
+2. Make directory data
+3. Add zip files to directory data
+4. Add map files to directory data
+5. Install packages
 library("tmap")
 library("sf")
 library("spdep")
@@ -20,6 +23,6 @@ library("spgwr")
 library("dplyr")
 library("car")
 
-3. Run data_processing.R
+6. Run data_processing.R
 
-4. Run regression.R
+7. Run regression.R
